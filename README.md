@@ -88,6 +88,4 @@ Create an `index.html` file:
 
 Open this file in a browser and check the console for WebSocket activity.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
