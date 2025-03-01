@@ -14,7 +14,7 @@ COPY . .
 RUN go build -o server ./cmd/main.go
 
 # Use a minimal runtime image for deployment
-FROM gcr.io/distroless/base-debian11
+FROM debian:bookworm-slim
 
 WORKDIR /root/
 
