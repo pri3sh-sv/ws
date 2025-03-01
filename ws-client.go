@@ -1,4 +1,4 @@
-package Hassan_WebSocket
+package main
 
 import (
 	"github.com/gorilla/websocket"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-var url = "ws://localhost:8080/ws"
+var url = "ws://localhost:8080/ws" // server-url
 
 func connectToWebSocket() {
 	for {
